@@ -21,7 +21,7 @@
 
 /* quick info */
 .box-quick-info{
-    
+    margin-left: 15px;
 }
 
 .title-quick-info{
@@ -57,6 +57,10 @@
     max-width: 85px;
 }
 
+.max-width-400px{
+    max-width: 400px;
+}
+
 .display-inline-flex {
     display: inline-flex;
 }
@@ -70,7 +74,37 @@
     max-width: 460px;
 }
 
+.mobile-app-describe-img:hover{
+    max-width: 480px;
+}
 
+/* section6 */
+
+.section6{
+    background-color: #009933;
+}
+
+.section6 .text-white{
+    color: white;
+}
+
+ .container .container-md{
+    max-width: 880px;
+}
+
+ .container .container-sm{
+    max-width: 880px;
+}
+
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
+
+.section6 .recuiter {
+    background-image: url('https://abcfood.vn/wp-content/uploads/2021/12/img-ung-tuyen.png');
+}
 /* social icon fixed */
 .social-icon{
     position: fixed;
@@ -81,5 +115,9 @@
 
 .social-icon button{
     margin-bottom: 5px;
+}
+
+.text-green{
+    color: #009933;
 }
 
