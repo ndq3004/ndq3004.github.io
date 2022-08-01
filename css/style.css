@@ -1,0 +1,47 @@
+/* Header - logo */
+.logo-header {
+    padding: 10px;
+}
+
+/* quick info */
+.box-quick-info{
+    
+}
+
+.title-quick-info{
+    color: #009933;
+    font-size: 20px;
+}
+
+
+.logo-header img {
+    max-width: 85px;
+}
+
+/* Content */
+#dropdownLinkItem {
+    transition: width 2s;
+}
+
+.section4{
+    padding: 40px 0;
+}
+
+.section4 .container{
+    max-width: 1080px !important;
+}
+
+.max-height-510{
+    /* max-height: 510px; */
+}
+
+.max-width-85px{
+    max-width: 85px;
+}
+
+.display-inline-flex {
+    display: inline-flex;
+}
+
+
+

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="logo-header">
+        <a class="navbar-brand " href="#">
+          <img src="https://abcfood.vn/wp-content/themes/site/images/logo.png" alt="Công ty TNHH Thực phẩm sạch ABC">
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="justify-content-center navbar-collapse collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu" id="dropdownLinkItem" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Slide -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner max-height-510">
+      <div class="carousel-item active">
+        <img src="./images/abc-food-slide-2022-1.jpg" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/sile-tao-pho-nghi-khuc-abc-food.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/cover-dua.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="section4">
+    <div class="container container-sm container-lg container-md mt-3">
+      <div class="row">
+        <div class="col col-lg-5 col-md-6 col-sm-3 display-inline-flex">
+          <div>
+            <img src="https://abcfood.vn/wp-content/uploads/2021/12/icon-tt1.png" alt="" class="thumb">
+          </div>
+          <div class="box-quick-info">
+            <div class="title-quick-info">
+              <h4>CÔNG SUẤT</h4> 
+            </div>
+            <div class="quick-info">
+              Sản xuất 10 tấn/ ngày
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-5 col-md-6 col-sm-3 display-inline-flex">
+          <div>
+            <img src="https://abcfood.vn/wp-content/uploads/2021/12/icon-tt1.png" alt="" class="thumb">
+          </div>
+          <div class="box-quick-info">
+            <div class="title-quick-info">
+              <h4>ĐIỂM BÁN</h4> 
+            </div>
+            <div class="quick-info">
+              Hơn 300 điểm bán tại Hà Nội
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="row">
+        <div class="col col-lg-5 col-md-6 col-sm-3 display-inline-flex">
+          <div>
+            <img src="https://abcfood.vn/wp-content/uploads/2021/12/icon-tt1.png" alt="" class="thumb">
+          </div>
+          <div class="box-quick-info">
+            <div class="title-quick-info">
+              <h4>NHÀ HÀNG</h4> 
+            </div>
+            <div class="quick-info">
+              Hơn 150 nhà hàng, trường học
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-5 col-md-6 col-sm-3 display-inline-flex">
+          <div>
+            <img src="https://abcfood.vn/wp-content/uploads/2021/12/icon-tt1.png" alt="" class="thumb">
+          </div>
+          <div class="box-quick-info">
+            <div class="title-quick-info">
+              <h4>KHÁCH HÀNG</h4> 
+            </div>
+            <div class="quick-info">
+              10000 khách hàng mỗi ngày
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="./js/scripts.js"></script>
+<script>
+  // setTimeout(function(){
+  //   window.location.reload()
+  // }, 4000)
+</script>
+
+</html>
