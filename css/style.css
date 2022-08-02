@@ -96,6 +96,12 @@
     max-width: 880px;
 }
 
+/* section 9 */
+.section9 .card{
+    max-width: 270px;
+}
+
+
 /* @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
@@ -120,4 +126,9 @@
 .text-green{
     color: #009933;
 }
+
+.bg-green {
+    background-color: #009933;
+}
+
 
